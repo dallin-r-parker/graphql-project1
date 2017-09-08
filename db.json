@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "id": "23",
-      "firstName": "Dallin",
-      "age": 23,
-      "companyId": "1"
-    },
-    {
       "id": "53",
       "firstName": "Kayda",
       "age": 21,
@@ -28,16 +22,6 @@
       "firstName": "Brady",
       "age": 1,
       "id": "B1vT1DyqW"
-    },
-    {
-      "firstName": "Brady",
-      "age": 1,
-      "id": "rJiWeD15W"
-    },
-    {
-      "firstName": "Brady",
-      "age": 1,
-      "id": "Hy7Xgwy9b"
     }
   ],
   "companies": [
