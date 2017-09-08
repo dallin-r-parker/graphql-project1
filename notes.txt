@@ -1,0 +1,42 @@
+
+# This is an example of a Query
+# {
+#   apple: company(id: "1"){
+#     ...companyDetails
+#   }
+#   google: company(id: "2") {
+#     ...companyDetails
+#   }
+# }
+
+# fragment companyDetails on Company {
+#   id,
+#   name,
+#   description
+# }
+
+
+# This is an example of Mutation
+# mutation {
+#   addUser(firstName:"Brady", age: 1){
+#     id
+#     firstName
+#     age
+#   }
+# }
+
+# mutation {
+#   deleteUser(id:"23"){
+#     id
+#     firstName
+#     age
+#   }
+# }
+
+mutation {
+  editUser(id: "53", firstName:"Mikayda"){
+    id
+    firstName
+    age
+  }
+}
